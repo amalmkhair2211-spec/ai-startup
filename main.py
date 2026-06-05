@@ -1,4 +1,4 @@
-# ai-startufrom flask import Flask
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -7,4 +7,4 @@ def home():
     return "Smart Assistant Hub is running 🚀"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=10000)p
+    app.run(host="0.0.0.0", port=10000)
